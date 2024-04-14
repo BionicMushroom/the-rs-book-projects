@@ -1,0 +1,34 @@
+----------------------------------------------------------------
+the-rs-book-projects
+Copyright 2024 Tiberiu Alexandru Dumitrescu
+
+This project is heavily based on "The Rust Programming Language"
+book, specifically an experimental branch that supports
+interactive features like quizzes, available online at
+https://rust-book.cs.brown.edu. The book is dual-licensed
+under both the MIT and the Apache-2.0 licenses.
+
+The "guessing-game" crate (./crates/guessing_game) uses the
+"rand" crate (https://crates.io/crates/rand) as a dependency.
+The "rand" crate is dual-licensed under both the MIT and 
+the Apache-2.0 licenses.
+
+The "hello-macro-derive" crate
+(./crates/hello_macro/hello_macro_derive) uses the "syn"
+(https://crates.io/crates/syn) and "quote"
+(https://crates.io/crates/quote) crates. The two crates are
+dual-licensed under both the MIT and the Apache-2.0
+licenses.
+
+The "pig-latin" crate (./crates/pig_latin) uses the "icu"
+(https://crates.io/crates/icu) and "itertools"
+(https://crates.io/crates/itertools) crates as dependencies.
+The "icu" crate is licensed under the Unicode-3.0 license.
+The "itertools" crate is dual-licensed under both the MIT and 
+the Apache-2.0 licenses.
+
+The "web-server-third-party" crate (./crates/web_server_third_party)
+uses the "rayon" crate (https://crates.io/crates/rayon)
+as a dependency. The "rayon" crate is dual-licensed under
+both the MIT and the Apache-2.0 licenses.
+----------------------------------------------------------------

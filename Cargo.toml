@@ -1,0 +1,19 @@
+[workspace]
+members = ["crates/*"]
+exclude = ["crates/hello_world"]
+resolver = "2"
+
+[workspace.package]
+authors = ["Tiberiu Alexandru Dumitrescu"]
+categories = ["command-line-utilities", "rust-patterns"]
+description = "Projects written while reading The Rust Programming Language book."
+documentation = "https://github.com/BionicMushroom/the-rs-book-projects"
+edition = "2021"
+homepage = "https://github.com/BionicMushroom/the-rs-book-projects"
+keywords = ["book", "beginner", "projects"]
+license = "MIT OR Apache-2.0"
+publish = false
+readme = "README.md"
+repository = "https://github.com/BionicMushroom/the-rs-book-projects"
+rust-version = "1.77"
+version = "0.1.0"
